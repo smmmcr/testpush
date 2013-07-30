@@ -4,14 +4,13 @@
         <title>TestPush</title>
     </head>
     <body>
-        
+        <script src="phonegap.js"></script>
         <script type="text/javascript" charset="utf-8" src="jquery_1.5.2.min.js"></script>
-        
         <script type="text/javascript">
             var pushNotification;
             
             function onDeviceReady() {
-			alert('Iniciando..');
+			alert('Iniciando...');
                 $("#app-status-ul").append('<li>deviceready event received</li>');
                 
 				document.addEventListener("backbutton", function(e)
