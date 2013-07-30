@@ -22,7 +22,6 @@
 	<feature name="http://api.phonegap.com/1.0/media"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="http://api.phonegap.com/1.0/notification"/>
-	<gap:plugin name="com.adobe.plugins.pushplugin" />
 	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
